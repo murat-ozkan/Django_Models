@@ -29,5 +29,5 @@ urlpatterns = [
     # path('url/path', view_func(), 'redirection_name'),
     path('', home), # path('url', func)
     path('admin/', admin.site.urls),
-    path('myapp/', include('my_app.urls') )
+    path('my_app/', include('my_app.urls'))
 ]
